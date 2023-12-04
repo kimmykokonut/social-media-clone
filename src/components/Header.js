@@ -32,6 +32,7 @@ function Header(){
                 id="search"
                 placeHolder="Search Twitter"
                 name="searchBox"
+                btnText="Search"
                 />
             <ProfilePicture
                 src={DogPicture}

@@ -8,7 +8,7 @@ const Search = (props) => {
         <input type="text" name={props.name} placeHolder={props.placeHolder}></input>
         <Button
             id="search"
-            text="Search"
+            text={props.btnText}
         />
         </form>
     )
@@ -17,7 +17,8 @@ const Search = (props) => {
 Search.propTypes = {
     id: PropTypes.string,
     placeHolder: PropTypes.string,
-    name: PropTypes.string
+    name: PropTypes.string,
+    btnText: PropTypes.string
 }
 
 export default Search;
