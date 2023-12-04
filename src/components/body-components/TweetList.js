@@ -25,7 +25,7 @@ export const tweeters = [{
 },
 {
     image: Dog,
-    displayName: "Franlkin T. Dog",
+    displayName: "Franklin T. Dog",
     userName: "@funnyclowndog1",
     tweetText: "Just bought #milk",
     replies: "434",
