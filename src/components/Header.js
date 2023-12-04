@@ -35,7 +35,7 @@ function Header(){
                 />
             <ProfilePicture
                 src={DogPicture}
-                size="100px"
+                size="50px"
                 alt="Your Profile"
             />
             <Button
